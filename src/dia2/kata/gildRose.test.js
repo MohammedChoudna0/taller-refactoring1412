@@ -34,6 +34,16 @@ describe('Gilded Rose', function () {
     expect(items[0].sellIn).toEqual(9);
   });
 
+  it('should increase quality +2 for Aged Brie', function() {
+
+    const gildRose = new Shop([new Item('Aged Brie', 0, 20)]);
+
+    const items = gildRose.updateQuality();
+
+    expect(items[0].quality).toEqual(22);
+    expect(items[0].sellIn).toEqual(-1);
+  });
+
   it('should not change quality for Sulfuras', function() {
 
     const gildRose = new Shop([new Item('Sulfuras, Hand of Ragnaros', 10, 80)]);
