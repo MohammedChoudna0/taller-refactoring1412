@@ -7,7 +7,7 @@ Por desgracia, nuestra mercadería va bajando de calidad a medida que se aproxim
 
 Tenemos un sistema instalado que actualiza automáticamente el `inventario`.
 Este sistema fue desarrollado por un muchacho con poco sentido común llamado Leeroy, que ahora se dedica a nuevas aventuras.
-Tu tarea es agregar una nueva característica al sistema para que podamos comenzar a vender una nueva categoría de items.
+Tu tarea es agregar una nuev a característica al sistema para que podamos comenzar a vender una nueva categoría de items.
 
 ## Descripción preliminar
 
@@ -43,3 +43,4 @@ Siéntete libre de realizar cualquier cambio al mensaje `updateQuality` y agrega
 ## Notas finales
 
 Para aclarar: un artículo nunca puede tener una `calidad` superior a `50`, sin embargo las Sulfuras siendo un artículo legendario posee una calidad inmutable de `80`.
+
